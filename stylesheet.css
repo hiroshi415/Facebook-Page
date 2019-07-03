@@ -1,0 +1,170 @@
+/* reset css */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* start here */
+
+*     {
+    box-sizing: border-box;
+  }
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color:#3b5998;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width:1000px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+    vertical-align: baseline;
+    color: white;
+}
+
+.header-left {
+    width: 50%;
+    float: left;
+    
+    vertical-align: baseline;
+}
+
+.header-left h1 {
+    font-family: inherit;
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+    padding-top: 15px;
+    padding-bottom: 11px;
+    font-size: 25px;
+    vertical-align: baseline;
+    color: white;
+    padding-left: 100px;
+    margin-left: 50px;
+}
+
+.header-right {
+    height: auto;
+    float:left;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+
+.info {
+    float:left;
+}
+
+.info input {
+    border: none;
+    border-radius:3px;
+    size: "30";
+}
+
+.info label {
+    font-size: 10px;
+}
+
+
+.submit {
+    float:left;
+    padding-top: 16px;
+}
+
+.submit input {
+    border: none;
+    border-radius:3px;
+    background-color: rgb(158, 205, 243); 
+}
+
+.main {
+    background-image: linear-gradient(white, rgb(114, 0, 0));
+}
+
+.body-wrapper{
+    width:1000px;
+    margin: 0 auto;
+    background-image:linear-gradient(white,#D7DCEA);
+}
+
+.body-container img {
+    vertical-align:middle;
+    width: 540px;
+    float: left;
+}
+
+.body-container {
+    width:100%;
+    background-image:linear-gradient(white,#D7DCEA);
+}
+
+.body-right {
+    float:left;
+}
+
+.body-right-content {
+    color:black;
+}
+
+.body-right-text {
+    float:left;
+    width:50%;
+}
+
+.text-container {
+    float: left;
+    width: 50%;
+}
+
+.body-right-info {
+    float:left;
+    width:50%;
+}

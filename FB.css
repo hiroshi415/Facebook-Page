@@ -1,0 +1,274 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* start here */
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+   height: 75px auto;
+   width: 100%;
+   background-color:#3b5998;
+   display:flex;
+}
+
+.header-left {
+    float: left;
+    padding-top: 20px;
+}
+
+.header-left h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.header-right {
+    float: right;
+    width: 50%;
+    position:relative;
+}
+
+.header-info {
+    float: left;
+    padding-top: 10px;
+    color: white;
+}
+
+.header-info input {
+    border-radius:5px;
+    border-style:none;
+    float:left;
+    height:30px;
+    width: 90%;
+    padding-left:10px;
+}
+
+.header-signin{
+    float:left;
+    padding-top: 25px;
+}
+
+.header-signin input {
+    padding:10px 10px;
+    background-color:rgb(126, 164, 233);
+    border-radius: 5px;
+    border-style: none;
+}
+
+.FBlogo {
+    float: left;
+    width: auto;
+}
+
+.FBlogo img{
+    height:560px;
+    width: auto;
+}
+
+.body-wrapper {
+    height: auto;
+    background: linear-gradient(white,#D7DCEA);
+    display:flex;
+}
+
+.body-wrapper input {
+    border-radius:8px;
+}
+
+.body {
+    float:right;
+    width: 50%;
+}
+
+.body-textbox {
+    display:inline-block;
+    width: 100%;
+}
+
+.body-textbox input {
+    margin:10px 0;
+    padding:0 10px;
+}
+
+.body-text {
+    width:100%;
+}
+
+.body-text h1 {
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    width:100%;
+}
+
+.body-text p {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.textbox {
+    border-style:gray solid 1px;
+    box-shadow: none;
+    float:left;
+    height:30px;
+    width: 90%;
+}
+
+
+.body-textbox-name {
+    float:left;
+    position:relative;
+    width:38%;
+}
+
+.body-textbox-other {
+    width:80%;
+}
+
+.body-textbox input {
+    border-style: 1px solid gray;
+    float:left;
+    height:30px;
+    width: 90%;
+    padding-left:10px;
+}
+
+.body-radio {
+    margin:0 auto;
+    display:inline-block;
+}
+
+.body-gender {
+    vertical-align:middle; 
+    margin-top:8px; 
+    margin-bottom:12px;
+    float:left;
+}   
+
+.body-title {
+    padding-bottom: 10px;
+}
+
+.body-title h1 {
+    font-size:20px;
+}
+
+.body-birthday {
+    float:left;
+    width:auto;
+}
+
+.body-birthday select {
+    display:inline-block;
+    padding: 0 auto;
+    width:auto;
+    height:30px;
+}
+
+.birthday {
+    margin-right: 5px;
+}
+
+.Birthday a {
+    font-size: 12px;
+    line-height: 10px;
+    width: 100%;
+}
+
+.body-footer {
+    display:inline-block;
+    width: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.body-footer p{
+    float:left;
+    font-size: 10px;
+}
+
+.body-signup {
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.body-signup input {
+    float:left;
+    font-weight: bold;
+    font-size: 20px;
+    background: #68A253;
+    color: white;
+    padding:10px 60px;
+    width:100%;
+    position:relative;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding-top:3px;
+}
